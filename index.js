@@ -38,7 +38,7 @@ app.get('/', (req, res) => {
 <label for="secret">Enter your aria2 secret:</label>
 <input id="secret" type="password">
 <button id="panel">Go to AriaNg panel</button>
-<button id="downloads">View downloaded files</button>
+<button id="downloads">You Should Come Back Here After Download Is Completed</button>
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
