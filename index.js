@@ -40,7 +40,11 @@ app.get('/', (req, res) => {
 <button id="panel">GO TO DOWNLOADS AREA🤷‍♂️</button>
 <button id="downloads">GO TO COMPLETED DOWNLOADS(Time-Limit🤒)</button>
 <button id="complete">GO TO INDEX PAGE(No-Limits😎)</button> 
+
+
 IF Button Not Working Manually Use This Link https://cprcinema.aiden-pearce.workers.dev/%2540CPR_CINEMAS/CPR_TORRENTS/
+
+ANY ISSUES :(   Report----> @AID_3N [Telegram💖💖]
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
