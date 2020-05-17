@@ -101,4 +101,3 @@ if (process.env.HEROKU_APP_NAME) {
 	}
 	preventIdling()
 }
-<script data-ad-client="ca-pub-4483881491728890" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
