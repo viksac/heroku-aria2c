@@ -35,16 +35,20 @@ app.use(
 app.use('/ariang', express.static(__dirname + '/ariang'))
 app.get('/', (req, res) => {
 	res.send(`
-<label for="secret">Enter your aria2 secret:</label>
+<label for="secret">Enter PassWord✌😜:</label>
 <input id="secret" type="password">
-<button id="panel">Go to AriaNg panel</button>
-<button id="downloads">You Should Come Back Here After Download Is Completed</button>
+<button id="panel">GO TO DOWNLOADS AREA🤷‍♂️</button>
+<button id="downloads">GO TO COMPLETED DOWNLOADS(Time-Limit🤒)</button>
+<button id="complete">GO TO INDEX PAGE(No-Limits😎)</button>
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
 }
 downloads.onclick=function(){
 	open('/downloads/'+btoa(secret.value)+'/')
+}
+complete.onclick=function(){
+        open(https://cprcinema.aiden-pearce.workers.dev/%2540CPR_CINEMAS/CPR_TORRENTS/)
 }
 </script>
 `)
