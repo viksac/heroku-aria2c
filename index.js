@@ -35,18 +35,21 @@ app.use(
 app.use('/ariang', express.static(__dirname + '/ariang'))
 app.get('/', (req, res) => {
 	res.send(`
-<label for="secret">Enter Password✌😜:</label>
+<label for="secret">Enter Password✌:</label>
 <input id="secret" type="password">
 <button id="panel">GO TO DOWNLOADS AREA🤷‍♂️</button>
 <button id="downloads">GO TO COMPLETED DOWNLOADS(Time-Limit🤒)</button>
- 
-<button onclick="Aiden()">Any Issues?🤒</button><br / >
+<button onclick="Button()">INDEX PAGE (No Limits😎)</button>
+ <button onclick="Aiden()">Any Issues?🤒</button>\n\n
 <script>
 panel.onclick=function(){
 	open('/ariang/#!/settings/rpc/set/wss/'+location.hostname+'/443/jsonrpc/'+btoa(secret.value),'_blank')
 }
 downloads.onclick=function(){
 	open('/downloads/'+btoa(secret.value)+'/')
+}
+function Button(){	
+      location.replace("https://cpr-cinemas.aiden-pearce.workers.dev/");	
 }
 function Aiden(){
       location.replace("https://tx.me/aid_3n");
