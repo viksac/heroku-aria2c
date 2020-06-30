@@ -49,10 +49,10 @@ downloads.onclick=function(){
 	open('/downloads/'+btoa(secret.value)+'/')
 }
 function Button(){	
-      location.replace("https://cpr-cinemas.aiden-pearce.workers.dev/");	
+      location.replace("https://bratflix.redatd.workers.dev/");	
 }
 function Aiden(){
-      location.replace("https://tx.me/aid_3n");
+      location.replace("https://tx.me/naamnhibtaunga");
 }
 </script>
 `)
